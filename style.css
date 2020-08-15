@@ -14,11 +14,19 @@ body{
     .card{
         width: 75%;
     }
+    i{
+    padding: 0 5px!important;
+
+    }
 }
 
 @media screen and (max-width:768px) and  (min-width:481px){
     .card{
         width: 45%;
+    }
+    i{
+        padding: 0 5px!important;
+    
     }
 }
 
@@ -28,6 +36,7 @@ h1{
 i{
     color: black;
     transition: 1s;
+    padding: 0 2px;
 
 }
 i:hover{
