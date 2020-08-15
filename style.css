@@ -1,0 +1,57 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+.card{
+    width: 22%;
+    height:auto ;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+
+}
+@media screen and (max-width:480px){
+    .card{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:768px) and  (min-width:481px){
+    .card{
+        width: 45%;
+    }
+}
+
+h1{
+    font-size: 20px;
+}
+i{
+    color: black;
+    transition: 1s;
+
+}
+i:hover{
+    opacity: 0.7;
+}
+button{
+    display: block;
+    margin: auto;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: 1s;
+}
+button:hover{
+    opacity: 0.7;
+}
+a{
+    text-decoration: none;
+}
